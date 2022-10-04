@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #6495ED;
+        }
+
+        #corpo{
+            width: 1000px;
+            background-color: #FFFFFF;
+            margin: 0 auto;
+            border-left: 2px solid #CCC;
+            border-right: 2px solid #CCC;
+        }
+
+        #topo{
+            padding: 20px 25px;
+            border-bottom: 2px solid #CCC;
+        }
+
+        #topo a{
+            color: #333;
+            text-decoration: none;
+            font: 20px Arial;
+        }
+
+        #topo a:hover{
+            text-decoration: underline;
+        }
+
+        #conteudo{
+            background-color: #FFFFFF;
+            padding: 20px 25px;
+
+        }
+
+        #conteudo h1{
+            font: 24px Arial;
+            color: #6495ED;
+            margin-bottom: 20px;
+        }
+
+        #conteudo article{
+            margin-bottom: 20px;
+        }
+
+        article h2{
+            font: 22px Arial;
+            color: #333;
+        }
+        article h2 {
+            padding-bottom: 7px;
+
+        }
+        article h2 a{
+            font: 22px Arial;
+            color: #333;
+            text-decoration: none;
+        }
+        article h2 a:hover{
+            text-decoration: underline;
+        }
+
+        article p{
+            font: 16px Arial;
+            color: #333;
+            padding-left: 2px;
+        }
+    </style>
+    <div id="corpo">
+        <div id="topo">
+            <header>
+                <nav>
+                    <a href="#">Home</a> |
+                    <a href="#">Sobre</a>
+                </nav>
+            </header>
+        </div>
+
+        <div id="conteudo">
+            <section>
+                <h1>Postagens: </h1>
+                <article>
+                    <header>
+                        <h2>
+                            <a href="#">Título da minha postagem</a>
+                        </h2>
+                    </header>
+                    <p>
+                        conteudo da postagem
+                    </p>
+                </article>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<section>
+    <article>
+        <header>
+            <h2>{{titulo}}</h2>
+        </header>
+
+        <p>{{conteudo}}</p>
+
+        <br>
+        <hr>
+
+    </article>
+
+    <h2>Comentários:</h2>
+    
+    <br>
+    {% if comentarios == false %}
+        <p>Nenhum comentário encontrado!</p>
+
+    {% else %}
+        {% for comentario in comentarios %}
+            <h3>{{comentario.nome}}</h3>
+            <p>{{comentario.mensagem}}</p>
+            <br>
+        {% endfor %}
+    {% endif %}
+</section>
